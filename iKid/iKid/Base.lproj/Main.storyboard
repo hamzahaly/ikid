@@ -19,9 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fse-sK-yIt">
-                                <frame key="frameInset" width="12.81%" height="4.92%" maxX="16" maxY="57"/>
+                                <frame key="frameInset" width="9.09%" height="4.92%" maxX="23" maxY="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOD-hz-87G">
                                 <frame key="frameInset" minX="43.20%" minY="48.43%" width="13.60%" height="3.15%"/>
@@ -52,9 +52,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdK-Mo-mEd">
-                                <frame key="frameInset" width="12.81%" height="4.92%" maxX="16" maxY="57"/>
+                                <frame key="frameInset" width="9.09%" height="4.92%" maxX="23" maxY="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RK-Dg-Ldv">
                                 <frame key="frameInset" minX="43.20%" minY="48.43%" width="13.60%" height="3.15%"/>
@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="1057" y="887"/>
         </scene>
-        <!--Item 1-->
+        <!--Dad-->
         <scene sceneID="gwu-Jn-zJg">
             <objects>
                 <viewController id="Wja-Wq-qYx" sceneMemberID="viewController">
@@ -85,9 +85,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbR-tG-oF4">
-                                <frame key="frameInset" width="12.81%" height="4.92%" maxX="16" maxY="57"/>
+                                <frame key="frameInset" width="9.09%" height="4.92%" maxX="23" maxY="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joke 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2GR-vD-PdU">
                                 <frame key="frameInset" minX="43.47%" minY="48.43%" width="13.07%" height="3.15%"/>
@@ -99,7 +99,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="9C7-tY-OMl"/>
+                    <tabBarItem key="tabBarItem" title="Dad" id="9C7-tY-OMl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kww-tF-wY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
