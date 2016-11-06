@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Pun-->
         <scene sceneID="nDD-yP-jFk">
             <objects>
                 <viewController id="NtP-dF-QEm" customClass="PunViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="LFR-Ed-3nA"/>
+                    <tabBarItem key="tabBarItem" title="Pun" id="LFR-Ed-3nA"/>
                     <navigationItem key="navigationItem" id="LmP-YE-0d5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4g0-p3-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -93,7 +93,7 @@
             </objects>
             <point key="canvasLocation" x="2561" y="493"/>
         </scene>
-        <!--Item-->
+        <!--Good-->
         <scene sceneID="fnQ-H0-fK0">
             <objects>
                 <viewController id="X0u-fY-Ow1" customClass="GoodViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,7 +116,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="k95-0D-JO3"/>
+                    <tabBarItem key="tabBarItem" title="Good" id="k95-0D-JO3"/>
                     <navigationItem key="navigationItem" id="roA-ch-1yx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Wv-P4-z8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -177,7 +177,7 @@
             </objects>
             <point key="canvasLocation" x="2011.594202898551" y="1220.3804347826087"/>
         </scene>
-        <!--Item-->
+        <!--Dad-->
         <scene sceneID="gwu-Jn-zJg">
             <objects>
                 <viewController id="Wja-Wq-qYx" customClass="DadViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
@@ -200,7 +200,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="eNI-Gc-nkR"/>
+                    <tabBarItem key="tabBarItem" title="Dad" id="eNI-Gc-nkR"/>
                     <navigationItem key="navigationItem" id="Wol-qU-vQx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kww-tF-wY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
