@@ -109,6 +109,9 @@
                                 <rect key="frame" x="358" y="645" width="35.5" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="flipBtn:" destination="X0u-fY-Ow1" eventType="touchUpInside" id="2VU-ba-TV5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
