@@ -96,7 +96,7 @@
         <!--Item-->
         <scene sceneID="fnQ-H0-fK0">
             <objects>
-                <viewController storyboardIdentifier="GoodQ" id="X0u-fY-Ow1" customClass="GoodViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="X0u-fY-Ow1" customClass="GoodViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lQ7-ih-7Z7"/>
                         <viewControllerLayoutGuide type="bottom" id="zSl-bI-H6R"/>
@@ -150,7 +150,7 @@
         <!--GoodQ View Controller-->
         <scene sceneID="hWd-DV-1Ku">
             <objects>
-                <viewController id="Hm2-SQ-8nL" customClass="GoodQViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoodQ" id="Hm2-SQ-8nL" customClass="GoodQViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aOf-xa-2ZN"/>
                         <viewControllerLayoutGuide type="bottom" id="Ypy-f7-wcB"/>
@@ -177,7 +177,7 @@
         <!--Item-->
         <scene sceneID="gwu-Jn-zJg">
             <objects>
-                <viewController storyboardIdentifier="DadQ" id="Wja-Wq-qYx" customClass="DadViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wja-Wq-qYx" customClass="DadViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="o9a-Ns-32T"/>
                         <viewControllerLayoutGuide type="bottom" id="Cwh-PG-GNX"/>
@@ -190,6 +190,9 @@
                                 <rect key="frame" x="358" y="645" width="35.5" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="flipBtn:" destination="Wja-Wq-qYx" eventType="touchUpInside" id="Sd3-2q-Hgy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -231,7 +234,7 @@
         <!--DadQ View Controller-->
         <scene sceneID="CmN-Bx-6O7">
             <objects>
-                <viewController id="Nba-cM-Ec4" customClass="DadQViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DadQ" id="Nba-cM-Ec4" customClass="DadQViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CVF-ET-u8c"/>
                         <viewControllerLayoutGuide type="bottom" id="R01-t2-AdL"/>

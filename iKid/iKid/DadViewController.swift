@@ -9,7 +9,55 @@
 import UIKit
 
 class DadViewController: UIViewController {
-
+    private var DadQViewController : DadQViewController!
+    private var DadAViewController : DadAViewController!
+    
+    private func firstBuilder() {
+        if DadQViewController == nil {
+            DadQViewController = storyboard?.instantiateViewController(withIdentifier: "DadQ") as! DadQViewController
+        }
+    }
+    
+    private func secondBuilder() {
+        if DadAViewController == nil {
+            DadAViewController = storyboard?.instantiateViewController(withIdentifier: "DadA") as! DadAViewController
+        }
+    }
+    
+    @IBAction func flipBtn(_ sender: UIButton) {
+        secondBuilder()
+        firstBuilder()
+        
+        UIView.beginAnimations("View Flip", context: nil)
+        UIView.setAnimationDuration(0.4)
+        UIView.setAnimationCurve(.easeInOut)
+        
+        if DadQViewController != nil && DadQViewController?.view.superview != nil {
+            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
+            DadAViewController.view.frame = view.frame
+            switchView(from: DadQViewController, to: DadAViewController)
+        } else {
+            UIView.setAnimationTransition(.flipFromLeft, for: view, cache: true)
+            DadQViewController.view.frame = view.frame
+            switchView(from: DadAViewController, to: DadQViewController)
+        }
+        UIView.commitAnimations()
+    }
+    
+    private func switchView(from: UIViewController?, to: UIViewController?) {
+        if from != nil {
+            from!.willMove(toParentViewController: nil)
+            from!.view.removeFromSuperview()
+            from!.removeFromParentViewController()
+        }
+        
+        if to != nil {
+            self.addChildViewController(to!)
+            self.view.insertSubview(to!.view, at: 0)
+            to!.didMove(toParentViewController: self)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
