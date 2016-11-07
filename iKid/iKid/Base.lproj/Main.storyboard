@@ -58,6 +58,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ion" translatesAutoresizingMaskIntoConstraints="NO" id="nvN-Zi-wIm">
+                                <rect key="frame" x="87" y="421" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -282,4 +286,7 @@
             <point key="canvasLocation" x="780" y="125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ion" width="275" height="183"/>
+    </resources>
 </document>
